@@ -18,4 +18,9 @@ public class TestController {
     public String sayHello() {
         return "hi bro how are you S  ";
     }
+
+    @GetMapping("lost/")
+    public String sayHello() {
+        return "hi bro how are you this is 3rd  ";
+    }
 }
