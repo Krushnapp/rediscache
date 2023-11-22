@@ -16,7 +16,7 @@ public class TestController {
     }
     @GetMapping("Out/")
     public String sayHello() {
-        return "hi bro how are you S  ";
+        return "hi bro how are you S ok  ";
     }
 
     @GetMapping("lost/")
